@@ -1,0 +1,25 @@
+name: Laravel Deploy to cPanel
+
+on:
+  push:
+    branches:
+      - main  # ou la branche que vous utilisez pour le déploiement
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Déploiement via SSH
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        port: ${{ secrets.PORT }}
+        script: |
+          cd path/to/your/app
+          git pull origin main
+      
