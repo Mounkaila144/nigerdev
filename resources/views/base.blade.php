@@ -27,7 +27,7 @@
     <div class="container">
         <!-- LOGO -->
         <a class="logo text-uppercase" href="index-1.html">
-            <img src="images/logo1.svg" alt="" width="200" />
+            <img src="images/logo1.svg" alt="" width="150" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="mdi mdi-menu"></i>
