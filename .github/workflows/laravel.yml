@@ -20,6 +20,6 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
-          cd path/to/your/app
-          git pull origin main
+          cd path/public_html/nigerdev
+          git pull origin master
       
