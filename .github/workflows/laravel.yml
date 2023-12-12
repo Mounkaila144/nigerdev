@@ -1,25 +1,33 @@
-name: Laravel Deploy to cPanel
+name: Deploy wesite on push
 
-on:
+# Controls when the workflow will run
+on: 
+  # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches:
-      - master  # ou la branche que vous utilisez pour le déploiement
+      - master
 
-jobs:
-  deploy:
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs: 
+  # This workflow contains a single job called "build"
+  web-deploy:
+    name: Deploy
+
+    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
+    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - uses: actions/checkout@v2
+    - name: Get latest code
 
-    - name: Déploiement via SSH
-      uses: appleboy/ssh-action@master
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      uses: actions/checkout@v2
+
+    - name: Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-        host: ${{ secrets.HOST }}
+        port: ${{ secrets.PORT }}
+        server: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
-        port: ${{ secrets.PORT }}
-        script: |
-          cd path/public_html/nigerdev
-          git pull origin master
-      
+        server-dir: /
