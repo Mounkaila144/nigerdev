@@ -11,7 +11,7 @@
                     <h1 class="hero-title mb-4 display-4 text-nowrap for d-none d-lg-block " style="font-family:Chalkboard">
                             <img src="images/logo1.svg" alt="" width="270" style="margin-top: -18px"/>
                        <span class="text-primary" >Tech & Innovation</span> </h1>
-                     <h1 class="hero-title fw-bold mb-4 display-4 d-lg-none for mobile d-lg-none" style="font-family:Chalkboard">
+                     <h1 class="hero-title mb-4 display-4 d-lg-none for mobile d-lg-none" style="font-family:Chalkboard">
                             <img src="images/logo1.svg" alt="" width="270" style="margin-top: -18px"/>
                        <span class="text-primary" >Tech & Innovation</span> </h1>
 
