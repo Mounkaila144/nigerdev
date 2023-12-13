@@ -35,30 +35,30 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mx-auto navbar-center" id="mySidenav">
                 <li class="nav-item">
-                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#home" class="nav-link">Page d'Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#features" class="nav-link">À propos </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#screenshot" class="nav-link">Screenshot</a>
+                    <a href="#screenshot" class="nav-link">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#testimonial" class="nav-link">Testimonial</a>
+                    <a href="#testimonial" class="nav-link">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#pricing" class="nav-link">Pricing</a>
+                    <a href="#pricing" class="nav-link">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact Us</a>
+                    <a href="#contact" class="nav-link">Contact</a>
                 </li>
             </ul>
             <ul class="navbar-nav navbar-center">
                 <li class="nav-item">
-                    <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
+                    <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#loginModal">Cree un compte</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="btn btn-sm nav-btn" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</a>
+                    <a href="#" class="btn btn-sm nav-btn" data-bs-toggle="modal" data-bs-target="#signupModal">Se connecter</a>
                 </li>
             </ul>
         </div>
