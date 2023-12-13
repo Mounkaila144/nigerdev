@@ -8,9 +8,13 @@
         <div class="container">
             <div class="row justify-content-center text-center hero-content">
                 <div class="col-lg-8">
-                    <h1 class="hero-title fw-bold mb-4 display-4" style="font-family:Chalkboard">
+                    <h1 class="hero-title mb-4 display-4 text-nowrap for d-none d-lg-block " style="font-family:Chalkboard">
                             <img src="images/logo1.svg" alt="" width="270" style="margin-top: -18px"/>
-                       <span class="text-primary" style="font-weight: 400;">Tech & Innovation</span> </h1>
+                       <span class="text-primary" >Tech & Innovation</span> </h1>
+                     <h1 class="hero-title fw-bold mb-4 display-4 d-lg-none for mobile d-lg-none" style="font-family:Chalkboard">
+                            <img src="images/logo1.svg" alt="" width="270" style="margin-top: -18px"/>
+                       <span class="text-primary" >Tech & Innovation</span> </h1>
+
                     <p class="opacity-75 mb-4 pb-3 fs-17">Solutions de Développement Imformatique pour les pays de L'AES. Connecter le Niger, le Burkina Faso et le Mali au Monde Numérique</p>
                     <a href="javascript:void(0);" class="btn btn-lg btn-gradient-primary">Let's Started</a>
                 </div>
