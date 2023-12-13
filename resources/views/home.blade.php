@@ -18,7 +18,7 @@
                     <p class=" mb-4 pb-3 fs-20">
                         Bienvenue sur Nigerdev, où la technologie rencontre l'innovation pour créer des solutions web et mobiles exceptionnelles.
                         Nous sommes dédiés à fournir des services de développement sur mesure pour les pays de L'AES.
-                        Connecter le Niger, le Burkina Faso et le Mali au Monde Numérique
+                        Connectons le Niger, le Burkina Faso et le Mali au Monde Numérique
 
                     </p>
 
@@ -36,7 +36,7 @@
             <div class="row justify-content-center hero-content">
                 <div class="col-lg-10">
                     <div class="hero-5-img-content">
-                        <img src="images/heros/hero-5-img.png" alt="" class="img-fluid d-block mx-auto">
+                        <img src="images/hero1.png" alt="" class="img-fluid d-block mx-auto">
                     </div>
                 </div>
             </div>
