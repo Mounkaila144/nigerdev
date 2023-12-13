@@ -15,7 +15,13 @@
                             <img src="images/logo1.svg" alt="" width="270" style="margin-top: -18px"/>
                        <span class="text-primary" >Tech & Innovation</span> </h1>
 
-                    <p class="opacity-75 mb-4 pb-3 fs-17">Solutions de Développement Imformatique pour les pays de L'AES. Connecter le Niger, le Burkina Faso et le Mali au Monde Numérique</p>
+                    <p class=" mb-4 pb-3 fs-20">
+                        Bienvenue sur Nigerdev, où la technologie rencontre l'innovation pour créer des solutions web et mobiles exceptionnelles.
+                        Nous sommes dédiés à fournir des services de développement sur mesure pour les pays de L'AES.
+                        Connecter le Niger, le Burkina Faso et le Mali au Monde Numérique
+
+                    </p>
+
                     <a href="javascript:void(0);" class="btn btn-lg btn-gradient-primary">Let's Started</a>
                 </div>
             </div>
