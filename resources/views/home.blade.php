@@ -3,10 +3,6 @@
 @section('title', 'Les categories')
 
 @section('content')
-
-titre:Nigerdev Imformatique
-sous titre: Solutions de Développement Imformatique pour les pays de L'AES. Connecter le Niger, le Burkina Faso et le Mali au Monde Numérique
-
     <!-- home-agency start -->
     <section class="hero-5 bg-light" id="home">
         <div class="container">
