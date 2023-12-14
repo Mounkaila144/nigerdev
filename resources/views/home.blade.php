@@ -8,12 +8,9 @@
         <div class="container">
             <div class="row justify-content-center text-center hero-content">
                 <div class="col-lg-8">
-                    <h1 class="hero-title mb-4 display-4 text-nowrap for d-none d-lg-block " style="font-family:Chalkboard">
-                            <img src="images/logo1.svg" alt="" width="270" style="margin-top: -18px"/>
-                       <span class="text-primary" >Tech & Innovation</span> </h1>
-                     <h1 class="hero-title mb-4 display-4 d-lg-none for mobile d-lg-none d-flex" style="font-family:Chalkboard">
-                            <img src="images/logo1.svg" alt="" width="120" style="margin-top: -4px"/>
-                       <span class="text-primary fs-24 text-nowrap" >Tech & Innovation</span> </h1>
+                     <h1 class="hero-title display-4 d-lg-none for mobile justify-content-center text-center" style="font-family:Chalkboard">
+                            <img src="images/logo1.svg" alt="" width="90" />
+                       <span class="text-primary fs-20 text-nowrap" >Tech & Innovation</span> </h1>
                 </div>
             </div>
         </div>
@@ -27,12 +24,15 @@
             <div class="row justify-content-center hero-content">
                 <div class="col-lg-5 col-12">
 
-                    <div class="hero-5-img-content">
+                    <div class="hero-5-img-content d-none d-lg-block">
+                        <img src="images/hero1.png" alt="" class="img-fluid d-block mx-auto" style="margin-left: 110px !important;">
+                    </div>
+<div class="hero-5-img-content d-block d-lg-none">
                         <img src="images/hero1.png" alt="" class="img-fluid d-block mx-auto">
                     </div>
 
                 </div>
-                <div class="col-lg-7 col-12 d-lg-block d-lg-none" >
+                <div class="col-lg-7 col-12 d-block d-lg-none" >
                     <a href="javascript:void(0);" class="btn btn-lg btn-gradient-primary">Let's Started</a>
                     <p class=" mb-4 pb-3 fs-26">
                         Bienvenue sur Nigerdev, où la technologie rencontre l'innovation pour créer des solutions web et mobiles exceptionnelles.
@@ -41,7 +41,10 @@
 
                     </p>
                 </div>
-                 <div class="col-lg-7 col-12 d-none d-lg-block" style="margin-top: 150px;">
+                 <div class="col-lg-7 col-12 d-none d-lg-block" style="margin-top: 110px;">
+                     <h1 class="hero-title mb-4 display-4 text-nowrap for d-none d-lg-block " style="font-family:Chalkboard">
+                         <img src="images/logo1.svg" alt="" width="270" style="margin-top: -18px"/>
+                         <span class="text-primary" >Tech & Innovation</span> </h1>
                     <a href="javascript:void(0);" class="btn btn-lg btn-gradient-primary">Let's Started</a>
                     <p class=" mb-4 pb-3 fs-26">
                         Bienvenue sur Nigerdev, où la technologie rencontre l'innovation pour créer des solutions web et mobiles exceptionnelles.
