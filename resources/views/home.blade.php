@@ -25,10 +25,10 @@
                 <div class="col-lg-5 col-12">
 
                     <div class="hero-5-img-content d-none d-lg-block">
-                        <img src="images/hero1.png" alt="" class="img-fluid d-block mx-auto" style="margin-left: 110px !important;">
+                        <img src="images/hero3.gif" alt="" class="img-fluid d-block mx-auto" style="margin-left: 110px !important; margin-top: 100px">
                     </div>
 <div class="hero-5-img-content d-block d-lg-none">
-                        <img src="images/hero1.png" alt="" class="img-fluid d-block mx-auto">
+                        <img src="images/hero3.gif" alt="" class="img-fluid d-block mx-auto">
                     </div>
 
                 </div>
