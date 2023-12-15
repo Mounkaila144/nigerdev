@@ -35,11 +35,11 @@
                 <div class="col-lg-7 col-12 d-block d-lg-none" >
                     <a href="javascript:void(0);" class="btn btn-lg btn-gradient-primary">Let's Started</a>
                     <div class="row">
-                    <div class="col-4">
+                    <div class="col-3">
                     <img src="images/p1.gif" alt="" class="img-fluid d-block mx-auto">
                     </div>
-                    <div class="col-8">
-                        <p class="fs-14">
+                    <div class="col-9">
+                        <p class="fs-15">
                             Bienvenue sur Nigerdev, où la technologie rencontre l'innovation pour créer des solutions web et mobiles exceptionnelles.
                             Nous sommes dédiés à fournir des services de développement sur mesure pour les pays de L'AES.
                             Connectons le Niger, le Burkina Faso et le Mali au Monde Numérique
