@@ -4,7 +4,7 @@
 
 @section('content')
     <!-- home-agency start -->
-    <section class=" bg-light" id="home">
+    <section class="hero-5 bg-light" id="home">
     </section>
 
     <div class="hero-5-img">
