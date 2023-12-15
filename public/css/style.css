@@ -1270,7 +1270,7 @@ label.form-label {
 }
 @media (max-width: 768px) {
   .hero-5 {
-    padding: 60px 0 320px;
+    padding: 80px 0 320px;
   }
   .hero-5-img {
     margin-top: -21rem;

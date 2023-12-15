@@ -4,58 +4,56 @@
 
 @section('content')
     <!-- home-agency start -->
-    <section class="hero-5 bg-light" id="home">
-        <div class="container">
-            <div class="row justify-content-center text-center hero-content">
-                <div class="col-lg-8">
-                     <h1 class="hero-title display-4 d-lg-none for mobile justify-content-center text-center" style="font-family:Chalkboard">
-                            <img src="images/logo1.svg" alt="" width="90" />
-                       <span class="text-primary fs-20 text-nowrap" >Tech & Innovation</span> </h1>
-                </div>
-            </div>
-        </div>
-        <div class="bottom-shape position-absolute bottom-0 start-0 end-0">
-            <img src="images/hero-bottom-shape.png" alt="" class="w-100">
-        </div>
+    <section class=" bg-light" id="home">
     </section>
 
     <div class="hero-5-img">
-        <div class="container-fluid" >
+        <div class="container-fluid">
             <div class="row justify-content-center hero-content">
                 <div class="col-lg-5 col-12">
 
                     <div class="hero-5-img-content d-none d-lg-block">
-                        <img src="images/hero3.gif" alt="" class="img-fluid d-block mx-auto" style="margin-left: 110px !important; margin-top: 100px">
-                    </div>
-<div class="hero-5-img-content d-block d-lg-none">
-                        <img src="images/hero3.gif" alt="" class="img-fluid d-block mx-auto">
+                        <img src="images/hero3.gif" alt="" class="img-fluid d-block mx-auto"
+                             style="margin-left: 110px !important; margin-top: 100px">
                     </div>
 
                 </div>
-                <div class="col-lg-7 col-12 d-block d-lg-none" >
-                    <a href="javascript:void(0);" class="btn btn-lg btn-gradient-primary">Let's Started</a>
+                <div class="col-lg-7 col-12 d-block d-lg-none">
                     <div class="row">
-                    <div class="col-3">
-                    <img src="images/p1.gif" alt="" class="img-fluid d-block mx-auto">
-                    </div>
-                    <div class="col-9">
-                        <p class="fs-15">
-                            Bienvenue sur Nigerdev, où la technologie rencontre l'innovation pour créer des solutions web et mobiles exceptionnelles.
-                            Nous sommes dédiés à fournir des services de développement sur mesure pour les pays de L'AES.
-                            Connectons le Niger, le Burkina Faso et le Mali au Monde Numérique
+                        <div class="col-3">
+                            <img src="images/p1.gif" alt="" class="img-fluid d-block mx-auto">
+                        </div>
+                        <div class="col-9">
+                            <span class="text-primary fs-20 text-nowrap text-center " >Tech & Innovation</span>
+                            <p class="fs-14">
+                                Bienvenue sur Nigerdev, où la technologie rencontre l'innovation pour créer des
+                                solutions web et mobiles exceptionnelles.
+                                Nous sommes dédiés à fournir des services de développement sur mesure pour les pays de
+                                L'AES.
+                            </p>
+                        </div>
 
-                        </p>
                     </div>
+                    <p class=" fw-bold" style="margin-top: -18px">
+                        Connectons le Niger, le Burkina Faso et le Mali au Monde Numérique
 
+                    </p>
+
+                    <div class="hero-5-img-content d-block d-lg-none">
+                        <img src="images/hero3.gif" alt="" class="img-fluid d-block mx-auto w-75">
                     </div>
+                    <a href="javascript:void(0);" class="btn btn-lg btn-gradient-primary">Let's Started</a>
+
                 </div>
-                 <div class="col-lg-7 col-12 d-none d-lg-block" style="margin-top: 110px;">
-                     <h1 class="hero-title mb-4 display-4 text-nowrap for d-none d-lg-block " style="font-family:Chalkboard">
-                         <img src="images/logo1.svg" alt="" width="270" style="margin-top: -18px"/>
-                         <span class="text-primary" >Tech & Innovation</span> </h1>
+                <div class="col-lg-7 col-12 d-none d-lg-block" style="margin-top: 110px;">
+                    <h1 class="hero-title mb-4 display-4 text-nowrap for d-none d-lg-block "
+                        style="font-family:Chalkboard">
+                        <img src="images/logo1.svg" alt="" width="270" style="margin-top: -18px"/>
+                        <span class="text-primary">Tech & Innovation</span></h1>
                     <a href="javascript:void(0);" class="btn btn-lg btn-gradient-primary">Let's Started</a>
                     <p class=" mb-4 pb-3 fs-26">
-                        Bienvenue sur Nigerdev, où la technologie rencontre l'innovation pour créer des solutions web et mobiles exceptionnelles.
+                        Bienvenue sur Nigerdev, où la technologie rencontre l'innovation pour créer des solutions web et
+                        mobiles exceptionnelles.
                         Nous sommes dédiés à fournir des services de développement sur mesure pour les pays de L'AES.
                         Connectons le Niger, le Burkina Faso et le Mali au Monde Numérique
 
