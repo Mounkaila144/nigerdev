@@ -42,15 +42,15 @@
                     <div class="hero-5-img-content d-block d-lg-none">
                         <img src="images/hero3.gif" alt="" class="img-fluid d-block mx-auto w-75">
                     </div>
-                    <a href="javascript:void(0);" class="btn btn-lg btn-gradient-primary">Let's Started</a>
+                    <a href="javascript:void(0);" class="btn btn-lg btn-gradient-primary">Contactez Nous</a>
 
                 </div>
                 <div class="col-lg-7 col-12 d-none d-lg-block" style="margin-top: 110px;">
                     <h1 class="hero-title mb-4 display-4 text-nowrap for d-none d-lg-block "
                         style="font-family:Chalkboard">
-                        <img src="images/logo1.svg" alt="" width="270" style="margin-top: -18px"/>
+                        <img src="images/logo.svg" alt="" width="270" style="margin-top: -18px"/>
                         <span class="text-primary">Tech & Innovation</span></h1>
-                    <a href="javascript:void(0);" class="btn btn-lg btn-gradient-primary">Let's Started</a>
+                    <a href="javascript:void(0);" class="btn btn-lg btn-gradient-primary">Contactez Nous</a>
                     <p class=" mb-4 pb-3 fs-26">
                         Bienvenue sur Nigerdev, où la technologie rencontre l'innovation pour créer des solutions web et
                         mobiles exceptionnelles.
@@ -64,6 +64,8 @@
         </div>
     </div>
     <!-- home-agency end -->
+
+
 
 
     <!-- How it work start -->

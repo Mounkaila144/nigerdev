@@ -27,7 +27,7 @@
     <div class="container">
         <!-- LOGO -->
         <a class="logo text-uppercase" href="index-1.html">
-            <img src="images/logo1.svg" alt="" width="120" />
+            <img src="images/logo.svg" alt="" width="120" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="mdi mdi-menu"></i>
@@ -38,11 +38,12 @@
                     <a href="#home" class="nav-link">Page d'Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#features" class="nav-link">À propos </a>
+                    <a href="#features" class="nav-link">Site Web</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#screenshot" class="nav-link">Services</a>
+                 <li class="nav-item">
+                    <a href="#screenshot"  class="nav-link">Application</a>
                 </li>
+
                 <li class="nav-item">
                     <a href="#testimonial" class="nav-link">Portfolio</a>
                 </li>
@@ -52,6 +53,7 @@
                 <li class="nav-item">
                     <a href="#contact" class="nav-link">Contact</a>
                 </li>
+
             </ul>
             <ul class="navbar-nav navbar-center">
                 <li class="nav-item">
