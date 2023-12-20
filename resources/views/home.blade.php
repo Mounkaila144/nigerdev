@@ -68,106 +68,27 @@
 
 
 
-    <!-- How it work start -->
-    <section class="section">
-        <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-md-8 col-lg-6 text-center">
-                    <h6 class="subtitle">How it <span class="fw-bold">Work</span></h6>
-                    <h2 class="title">How dose it work ?</h2>
-                    <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque rem aperiam.</p>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="work-box px-lg-5 text-center mb-5 mb-lg-0">
-                        <div class="work-icon bg-soft-primary mb-4">
-                            <i class="mdi mdi-format-list-bulleted"></i>
-                        </div>
-                        <h5 class="fw-semibold">1. Intuitive visual editor</h5>
-                        <p class="text-muted">Nemo enim ipsam quia voluptas sit aspernatur ist dolores.</p>
-                        <img src="images/arrow-top.png" alt="" class="work-arrow" />
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="work-box px-lg-5 text-center mb-5 mb-lg-0">
-                        <div class="work-icon bg-soft-success mb-4">
-                            <i class="mdi mdi-palette-outline"></i>
-                        </div>
-                        <h5 class="fw-semibold">2. Huge design collection</h5>
-                        <p class="text-muted">Nemo enim ipsam quia voluptas sit aspernatur ist dolores.</p>
-                        <img src="images/arrow-bottom.png" alt="" class="work-arrow" />
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="work-box px-lg-5 text-center mb-5 mb-lg-0">
-                        <div class="work-icon bg-soft-warning mb-4">
-                            <i class="mdi mdi-layers-triple"></i>
-                        </div>
-                        <h5 class="fw-semibold">3. One click installation</h5>
-                        <p class="text-muted">Nemo enim ipsam quia voluptas sit aspernatur ist dolores.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- How it work end -->
 
     <!-- features start -->
     <section class="section bg-light" id="features">
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-md-8 col-lg-6 text-center">
-                    <h6 class="subtitle">Our <span class="fw-bold">Features</span></h6>
-                    <h2 class="title">Smart Solutions For Buys People</h2>
-                    <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque rem aperiam.</p>
+                    <h6 class="subtitle">Site <span class="fw-bold">Web</span></h6>
+                    <h2 class="title">Restaurant en ligne</h2>
+                    <p class="text-muted">Conception d'un site web pour un restaurant local populaire, intégrant un système de réservation en ligne, un menu interactif et des avis clients.</p>
                 </div>
             </div>
 
             <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <img src="images/features-1.png" alt="" class="img-fluid d-block mx-auto ms-lg-auto" />
+                <div class="col-lg-8">
+                    <img src="images/site/resto1.gif" alt="" class="img-fluid d-block mx-auto ms-lg-auto" />
                 </div>
-                <div class="col-lg-5 offset-lg-1">
-                    <h1 class="fs-38 mb-4">Discover your destination</h1>
-                    <p class="text-muted">On the other hand, we denounce with righteous indignation so blinded that they cannot.</p>
-
-                    <div class="d-flex mb-3">
-                        <div class="flex-shrink-0">
-                                <span class="avatar avatar-lg bg-white text-primary rounded-circle shadow-primary">
-                                    <i class="mdi mdi-check"></i>
-                                </span>
-                        </div>
-                        <div class="flex-grow-1 ms-4">
-                            <p class="text-muted"><span class="text-dark fw-bold">The wise a therefore always holds</span> in us matters to this principle a selection a rejects pleasures.</p>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-3">
-                        <div class="flex-shrink-0">
-                                <span class="avatar avatar-lg bg-white text-primary rounded-circle shadow-primary">
-                                    <i class="mdi mdi-layers-outline"></i>
-                                </span>
-                        </div>
-                        <div class="flex-grow-1 ms-4">
-                            <p class="text-muted">Sed perspiciatis omnis a <span class="text-dark fw-bold">natus error accusantium doloremque</span> laudantium tota rem aperiam eaque ipsa quae illo inventore.</p>
-                        </div>
-                    </div>
-
-                    <div class="d-flex mb-3">
-                        <div class="flex-shrink-0">
-                                <span class="avatar avatar-lg bg-white text-primary rounded-circle shadow-primary">
-                                    <i class="mdi mdi-lock-outline"></i>
-                                </span>
-                        </div>
-                        <div class="flex-grow-1 ms-4">
-                            <p class="text-muted">
-                                Et sit <span class="text-dark fw-bold">quidem rerum facilis as expedita</span> distinctio am libero tempore cum <span class="text-dark fw-bold">soluta nobis est</span> eligendi optio cumque nihil impedit
-                                quo minus.
-                            </p>
-                        </div>
-                    </div>
+                <div class="col-lg-4">
+                    <img src="images/site/restomobile.gif" height="200" width="200" alt="" class="img-fluid d-block mx-auto ms-lg-auto" />
                 </div>
+
             </div>
         </div>
     </section>
@@ -224,7 +145,51 @@
         </div>
     </section>
     <!-- features end -->
+    <!-- How it work start -->
+    <section class="section">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-8 col-lg-6 text-center">
+                    <h6 class="subtitle">How it <span class="fw-bold">Work</span></h6>
+                    <h2 class="title">How dose it work ?</h2>
+                    <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque rem aperiam.</p>
+                </div>
+            </div>
 
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="work-box px-lg-5 text-center mb-5 mb-lg-0">
+                        <div class="work-icon bg-soft-primary mb-4">
+                            <i class="mdi mdi-format-list-bulleted"></i>
+                        </div>
+                        <h5 class="fw-semibold">1. Intuitive visual editor</h5>
+                        <p class="text-muted">Nemo enim ipsam quia voluptas sit aspernatur ist dolores.</p>
+                        <img src="images/arrow-top.png" alt="" class="work-arrow" />
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="work-box px-lg-5 text-center mb-5 mb-lg-0">
+                        <div class="work-icon bg-soft-success mb-4">
+                            <i class="mdi mdi-palette-outline"></i>
+                        </div>
+                        <h5 class="fw-semibold">2. Huge design collection</h5>
+                        <p class="text-muted">Nemo enim ipsam quia voluptas sit aspernatur ist dolores.</p>
+                        <img src="images/arrow-bottom.png" alt="" class="work-arrow" />
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="work-box px-lg-5 text-center mb-5 mb-lg-0">
+                        <div class="work-icon bg-soft-warning mb-4">
+                            <i class="mdi mdi-layers-triple"></i>
+                        </div>
+                        <h5 class="fw-semibold">3. One click installation</h5>
+                        <p class="text-muted">Nemo enim ipsam quia voluptas sit aspernatur ist dolores.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- How it work end -->
     <!-- counter start -->
     <section class="section cta-bg">
         <div class="bg-overlay bg-dark"></div>
