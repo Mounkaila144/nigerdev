@@ -13,39 +13,7 @@ pipeline {
                 }
             }
         }
-        stage('Install Dependencies') {
-            steps {
-                dir('/var/www/nigerdev.com') {
-                    sh 'composer install'
-                }
-            }
-        }
-        stage('Test') {
-            steps {
-                dir('/var/www/nigerdev.com') {
-                    sh 'vendor/bin/phpunit'
-                }
-            }
-        }
-        stage('Deploy to Production') {
-            steps {
-                sshPublisher(
-                    publishers: [
-                        sshPublisherDesc(
-                            configName: 'server_ssh_key',
-                            transfers: [
-                                sshTransfer(
-                                    execCommand: '''
-                                        cd /var/www/nigerdev.com &&
-                                        php artisan migrate --force &&
-                                        php artisan optimize
-                                    '''
-                                )
-                            ]
-                        )
-                    ]
-                )
-            }
-        }
+
+
     }
 }
