@@ -1,19 +1,30 @@
 pipeline {
     agent any
     stages {
-        stage('Checkout') {
+        stage('Pull Latest') {
             steps {
-                git credentialsId: 'git_credentials', url: 'https://github.com/Mounkaila144/nigerdev.git'
+                dir('/var/www/nigerdev.com') {
+                    script {
+                        // Assure que le dépôt est propre avant de tirer
+                        sh 'git reset --hard'
+                        sh 'git clean -fd'
+                        sh 'git pull'
+                    }
+                }
             }
         }
         stage('Install Dependencies') {
             steps {
-                sh 'composer install'
+                dir('/var/www/nigerdev.com') {
+                    sh 'composer install'
+                }
             }
         }
         stage('Test') {
             steps {
-                sh 'vendor/bin/phpunit'
+                dir('/var/www/nigerdev.com') {
+                    sh 'vendor/bin/phpunit'
+                }
             }
         }
         stage('Deploy to Production') {
@@ -24,9 +35,6 @@ pipeline {
                             configName: 'server_ssh_key',
                             transfers: [
                                 sshTransfer(
-                                    sourceFiles: '**/*',
-                                    removePrefix: 'src',
-                                    remoteDirectory: '/var/www/nigerdev.com',
                                     execCommand: '''
                                         cd /var/www/nigerdev.com &&
                                         php artisan migrate --force &&
