@@ -1,16 +1,12 @@
 pipeline {
     agent any
     stages {
-        stage('Pull Latest') {
+        stage('Example') {
             steps {
-                dir('/var/www/nigerdev.com') {
-                    script {
-                        sh 'git pull'
-                    }
+                withCredentials([usernamePassword(credentialsId: 'ID_des_identifiants', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
+                    echo 'Now we can use $USERNAME and a secured variable for $PASSWORD'
                 }
             }
         }
-
-
     }
 }
