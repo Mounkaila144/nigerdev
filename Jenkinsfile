@@ -1,12 +1,11 @@
 pipeline {
     agent any
     stages {
-        stage('Example') {
+        stage('Git Pull Test') {
             steps {
-                withCredentials([usernamePassword(credentialsId: 'ID_des_identifiants', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
-                    echo 'Now we can use $USERNAME and a secured variable for $PASSWORD'
-                }
+                git 'https://github.com/Mounkaila144/nigerdev.git'
             }
         }
     }
 }
+
