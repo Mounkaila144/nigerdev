@@ -21,11 +21,13 @@ pipeline {
                         // Correction rapide des permissions pour éviter les problèmes d'accès
                         echo 'Applying minimal necessary permissions...'
                         sh 'sudo chown -R ubuntu:ubuntu .'
-                        sh 'sudo chmod -R 775 storage bootstrap/cache'
+                        sudo chmod -R 777 storage
+                        sudo chmod -R 777 bootstrap/cache
+
 
                         // Redémarrer PHP-FPM pour appliquer les modifications de code
-                        echo 'Restarting PHP to reload the changes...'
-                        sh 'sudo systemctl restart php8.3-fpm' // Ajustez selon votre version de PHP
+                        //echo 'Restarting PHP to reload the changes...'
+                        //sh 'sudo systemctl restart php8.3-fpm' // Ajustez selon votre version de PHP
 
                         // Affiche l'heure de fin pour le débogage
                         echo "Deployment finished at ${new Date()}"
