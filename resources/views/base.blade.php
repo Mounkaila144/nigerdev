@@ -68,6 +68,7 @@
 </nav>
 <!-- Navbar End -->
 
+<h1>mes modification on fonctionner</h1>
 
     @yield('content')
 
