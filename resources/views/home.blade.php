@@ -38,6 +38,7 @@
                         Connectons le Niger, le Burkina Faso et le Mali au Monde Numérique
 
                     </p>
+                    <h1>mes modification on fonctionner</h1>
 
                     <div class="hero-5-img-content d-block d-lg-none">
                         <img src="images/hero3.gif" alt="" class="img-fluid d-block mx-auto w-75">
@@ -81,15 +82,35 @@
                 </div>
             </div>
 
-            <div class="row align-items-center">
-                <div class="col-lg-8">
-                    <img src="images/site/resto1.gif" alt="" class="img-fluid d-block mx-auto ms-lg-auto" />
+                <div class="row">
+                    <div class="col-12">
+                        <!-- Swiper -->
+                        <div class="screen-slider overflow-hidden">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="images/site/resto1.gif" alt="" class="img-fluid" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/site/restomobile.gif" alt="" class="img-fluid" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/screen-shot/3.jpg" alt="" class="img-fluid" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/screen-shot/5.jpg" alt="" class="img-fluid" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/screen-shot/2.jpg" alt="" class="img-fluid" />
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/screen-shot/4.jpg" alt="" class="img-fluid" />
+                                </div>
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                    <img src="images/site/restomobile.gif" height="200" width="200" alt="" class="img-fluid d-block mx-auto ms-lg-auto" />
-                </div>
-
-            </div>
         </div>
     </section>
     <!-- features end -->
