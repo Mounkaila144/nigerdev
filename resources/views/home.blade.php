@@ -24,6 +24,7 @@
                             <img src="images/p1.gif" alt="" class="img-fluid d-block mx-auto">
                         </div>
                         <div class="col-9">
+                            <span class="text-primary fs-20 text-nowrap text-center " >Tech & Innovation</span>
                             <p class="fs-14">
                                 Bienvenue sur Nigerdev, où la technologie rencontre l'innovation pour créer des
                                 solutions web et mobiles exceptionnelles.
@@ -48,7 +49,7 @@
                     <h1 class="hero-title mb-4 display-4 text-nowrap for d-none d-lg-block "
                         style="font-family:Chalkboard">
                         <img src="images/logo.svg" alt="" width="270" style="margin-top: -18px"/>
-                        <span class="text-primary">Tech & Innovation</span></h1>
+                        <span class="text-primary">Tech & Innovation mkl</span></h1>
                     <a href="javascript:void(0);" class="btn btn-lg btn-gradient-primary">Contactez Nous</a>
                     <p class=" mb-4 pb-3 fs-26">
                         Bienvenue sur Nigerdev, où la technologie rencontre l'innovation pour créer des solutions web et
