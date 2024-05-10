@@ -2,48 +2,34 @@ pipeline {
     agent any
 
     environment {
-        // Définir le répertoire racine de votre projet Laravel
+        // Le répertoire de base de votre application Laravel
         DOC_ROOT = "/var/www/nigerdev.com"
     }
 
     stages {
-        stage('Pull Latest Code') {
+        stage('Quick Pull & Deploy') {
             steps {
                 script {
                     dir("${env.DOC_ROOT}") {
-                        // Effectuer un git pull pour mettre à jour le code
+                        // Affiche l'heure de début pour le débogage
+                        echo "Starting deployment at ${new Date()}"
+
+                        // Pull les dernières modifications du code source
                         echo 'Pulling latest code from Git repository...'
                         checkout scm
-                    }
-                }
-            }
-        }
 
-        stage('Set Correct Permissions') {
-            steps {
-                script {
-                    dir("${env.DOC_ROOT}") {
-                        // Réajuster les permissions après le pull pour éviter les problèmes d'accès
-                        echo 'Setting correct file permissions...'
-                        sh '''
-                        sudo chown -R ubuntu:ubuntu .
-                        sudo find . -type d -exec chmod 775 {} \\;
-                        sudo find . -type f -exec chmod 664 {} \\;
-                        sudo chmod -R 777 storage
-                        sudo chmod -R 777 bootstrap/cache
-                        '''
-                    }
-                }
-            }
-        }
+                        // Correction rapide des permissions pour éviter les problèmes d'accès
+                        echo 'Applying minimal necessary permissions...'
+                        sh 'sudo chown -R ubuntu:ubuntu .'
+                        sh 'sudo chmod -R 775 storage bootstrap/cache'
 
-        stage('Restart PHP and Web Server') {
-            steps {
-                script {
-                    // Redémarrer PHP-FPM et le serveur web pour appliquer les changements
-                    echo 'Restarting PHP and Web server...'
-                    sh 'sudo systemctl restart php8.3-fpm'  // Ajustez selon votre version de PHP
-                    sh 'sudo systemctl restart nginx'      // Remplacez par apache2 si vous utilisez Apache
+                        // Redémarrer PHP-FPM pour appliquer les modifications de code
+                        echo 'Restarting PHP to reload the changes...'
+                        sh 'sudo systemctl restart php8.3-fpm' // Ajustez selon votre version de PHP
+
+                        // Affiche l'heure de fin pour le débogage
+                        echo "Deployment finished at ${new Date()}"
+                    }
                 }
             }
         }
@@ -51,13 +37,13 @@ pipeline {
 
     post {
         success {
-            echo 'Deployment successful!'
+            echo 'Deployment completed successfully!'
         }
         failure {
-            echo 'Deployment failed!'
+            echo 'Deployment failed. Check console output for details.'
         }
         always {
-            echo 'Deployment process completed.'
+            echo 'Deployment process has completed.'
         }
     }
 }
