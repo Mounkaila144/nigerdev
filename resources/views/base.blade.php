@@ -68,7 +68,6 @@
 </nav>
 <!-- Navbar End -->
 
-<h1>MKL</h1>
 
     @yield('content')
 
