@@ -14,9 +14,10 @@ pipeline {
             steps {
                 script {
                     dir('/var/www/nigerdev.com') {
-                        sh 'git pull'
+                        // Spécifier la branche lors du pull
+                        sh 'git pull origin master'
                         sh 'composer install --no-dev --optimize-autoloader'
-                        // Ajoutez d'autres commandes nécessaires pour le déploiement
+                        // Autres commandes de déploiement si nécessaire
                     }
                 }
             }
