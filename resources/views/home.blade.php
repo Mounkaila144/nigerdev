@@ -49,7 +49,7 @@
                     <h1 class="hero-title mb-4 display-4 text-nowrap for d-none d-lg-block "
                         style="font-family:Chalkboard">
                         <img src="images/logo.svg" alt="" width="270" style="margin-top: -18px"/>
-                        <span class="text-primary">Tech & Innovation vite</span></h1>
+                        <span class="text-primary">Tech & Innovation hhhh</span></h1>
                     <a href="javascript:void(0);" class="btn btn-lg btn-gradient-primary">Contactez Nous</a>
                     <p class=" mb-4 pb-3 fs-26">
                         Bienvenue sur Nigerdev, où la technologie rencontre l'innovation pour créer des solutions web et
