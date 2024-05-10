@@ -19,10 +19,15 @@ pipeline {
                         checkout scm
 
                         // Correction rapide des permissions pour éviter les problèmes d'accès
-                        echo 'Applying minimal necessary permissions...'
-                        sh 'sudo chown -R ubuntu:ubuntu .'
+                        // Réajuster les permissions après le pull pour éviter les problèmes d'accès
+                        echo 'Setting correct file permissions...'
+                        sh '''
+                        sudo chown -R ubuntu:ubuntu .
+                        sudo find . -type d -exec chmod 775 {} \\;
+                        sudo find . -type f -exec chmod 664 {} \\;
                         sudo chmod -R 777 storage
                         sudo chmod -R 777 bootstrap/cache
+                        '''
 
 
                         // Redémarrer PHP-FPM pour appliquer les modifications de code
