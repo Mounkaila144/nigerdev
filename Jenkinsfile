@@ -22,7 +22,7 @@ pipeline {
                         sh 'sudo find . -type f -exec chmod 664 {} \\;'
 
                         // Continuer le déploiement
-                        sh 'git pull'
+                        sh 'git pull origin master'
                         sh 'composer install --no-dev --optimize-autoloader'
                         sh 'php artisan migrate --force'
                         // Autres commandes de déploiement si nécessaire
